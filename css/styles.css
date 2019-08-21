@@ -3,10 +3,12 @@ body {
 }
 
 a {
-
+    color: black;
 }
 
 a:hover {
+    text-decoration: none;
+    color: black;
 
 }
 
@@ -35,16 +37,210 @@ button {
 }
 
 .bg-grey {
-    background-color: grey;
+    background-color: #eeeee3 !important;
+}
+
+.logo-horizontal {
+    width: 260px;
+    height: 100px;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 2100;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 15%;
+    color: black;
+}
+
+
+.carousel-caption h5 {
+    font-weight: 100;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.carousel-caption p {
+    font-size: 1.4rem;
+}
+
+.carousel-caption span {
+    font-weight: 500;
+}
+
+.aba-carousel-button {
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    display: inline;
+    padding: 5px;
+}
+
+.aba-carousel-button a {
+    text-decoration: none !important;
+    -webkit-transition: box-shadow 0.3s;
+}
+
+.aba-carousel-button:hover {
+    box-shadow: 0 4px 8px 0 #818181;
+    border-radius: 5px;
+    -webkit-transition: box-shadow 0.3s;
 }
 
 #aba-cta {
-    height: 300px;
+    text-align: center;
 }
 
-#aba-testimonials {
-    height: 300px;
+#aba-cta h5 {
+    padding: 30px;
+    font-weight: 700;
 }
+
+.aba-cta {
+    padding: 20px;
+}
+
+.aba-cta img {
+    width: 50px;
+    height: 50px;
+}
+
+.aba-cta span {
+    font-size: 0.6rem;
+}
+
+
+#aba-testimonials .jumbotron {
+    padding: 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.aba-jumbotron-image {
+    height: 500px;
+    width: auto;
+    min-height: 500px;
+}
+
+@media screen and (max-width: 480px) {
+    .aba-jumbotron-image {
+        height: 640px;
+        width: auto;
+        min-height: 640px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .aba-jumbotron-image {
+        height: 600px;
+        width: auto;
+        min-height: 600px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1336px) {
+    .aba-jumbotron-image {
+        height: 550px;
+        width: auto;
+        min-height: 550px;
+    }
+}
+
+.aba-jumbotron-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.aba-testimonials {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.aba-testimonials-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.aba-testimonials h4 {
+    color: red;
+}
+
+.aba-testimonials h6 {
+    color: #464d52;
+}
+
+.aba-testimonials p {
+    color: white;
+}
+
 
 #aba-partners {
     height: 300px;
