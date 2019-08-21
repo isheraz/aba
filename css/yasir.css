@@ -1,0 +1,117 @@
+body {
+    font-size: 12px;
+}
+p {
+    font-size: 14px;
+}
+
+.bg-white {
+    background-color: white !important;
+}
+
+.bg-grey {
+    background-color: #eeeeee;
+}
+
+#aba-faqs {
+    height: 300px;
+}
+
+.aba-footer-section  {
+    height: 200px;
+   
+}
+#footer-logo{
+
+    width: 170px;
+    margin-bottom: 10px;
+}
+
+.footer-icon{
+     color: #f44336;
+    font-size: 1rem;
+    background: #f44336;
+    font-size: 10px;
+    color: #fff;
+    min-width: 18px;
+    min-height: 18px;
+    border-radius: 3px;
+    padding: 5px 5px 4px 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.row p{
+    margin-top: 15px;
+}
+.mb-0 > a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    font-size: 17px;
+  }
+  .mb-0 > a:after {
+    content: "\f107"; /* fa-chevron-down */
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 0;
+  }
+  .mb-0 > a[aria-expanded="true"]:after {
+    content: "\f106"; /* fa-chevron-up */
+  }
+
+  #aba-faqs > h2{
+    text-align: center ;
+    margin-top: 20px;
+
+  }
+  #aba-partners > h2{
+    text-align: center ;
+
+  }
+
+  .aba-partners-img{
+    width: 125px ;
+  }
+
+ .aba-faq{
+     border-bottom-style: inset;
+     padding: 15px;
+ }
+
+ .aba-faq > h5 > a:hover{
+  color:#000;
+}
+
+ .page-footer{
+     text-align: center;
+ }
+
+ .footer-link{
+    text-decoration: none;
+    color:#f44336;
+ }
+
+a:hover{
+color:gray;
+text-decoration: none;
+ }
+
+ #aba-video-section > h2{
+     margin-top: 20px;
+     text-align: center;
+ }
+
+ .embed-responsive{
+ position: relative;
+ display: block;
+ width: 70%;
+ margin: 20px auto 50px;
+
+ }
+
+ .heading{
+    
+     color:#f44336;
+ }
