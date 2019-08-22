@@ -11,9 +11,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
           crossorigin="anonymous"/>
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css"/>
 </head>
@@ -25,20 +22,20 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a href="#">
-                <img src="images/logo-horizontal.png" class="logo-horizontal" alt="logo"/>
+                <img src="images/logo-horizontal.png" class="logo-horizontal ml-auto" alt="logo"/>
             </a>
             <div id="myNav" class="overlay">
-                <a href="javascript:void(0)" class="closebtn" style="font-size:30px;cursor:pointer;float:right;"
+                <a href="javascript:void(0)" class="closebtn"
                    onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
-                    <a href="#">About Us</a>
-                    <a href="#">Services</a>
-                    <a href="#">Contact</a>
+                    <a href="services.html">Services</a>
+                    <a href="carriers.html">Carriers</a>
+                    <a href="contact-us.html">Contact Us</a>
                 </div>
             </div>
             <div>
 
-                <span style="font-size:30px;cursor:pointer;float:right;"
+                <span style="font-size:30px;cursor:pointer;" class="mr-auto"
                       onclick="openNav()">&#9776;</span>
             </div>
         </div>
@@ -53,7 +50,7 @@
                 <li data-target="#aba-header-carousel" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active"
+                <div class="carousel-item active" id="carousel-item"
                      style="background-image: url('images/slider-img-1.jpg')">
                     <div class="carousel-caption">
                         <h5>CREATE <span>BETTER LIFESTYLES</span></h5>
@@ -63,7 +60,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="carousel-item"
+                <div class="carousel-item" id="carousel-item"
                      style="background-image: url('images/slider-img-1.jpg')">
                     <div class="carousel-caption">
                         <h5>CREATE <span>BETTER LIFESTYLES</span></h5>
@@ -73,7 +70,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="carousel-item"
+                <div class="carousel-item" id="carousel-item"
                      style="background-image: url('images/slider-img-1.jpg')">
                     <div class="carousel-caption">
                         <h5>CREATE <span>BETTER LIFESTYLES</span></h5>
@@ -103,7 +100,7 @@
                 <div class="col-md-1 col-sm-4 col-6 offset-md-3">
                     <a href="">
                         <article class="aba-cta">
-                            <img src="images/palm.png"/>
+                            <img src="images/Retirment.png"/>
                             <p>BETTERMENT PLAN</p>
                         </article>
                     </a>
@@ -111,7 +108,7 @@
                 <div class="col-md-1 col-sm-4 col-6">
                     <a href="">
                         <article class="aba-cta">
-                            <img src="images/home.png"/>
+                            <img src="images/Mortgage.png"/>
                             <p>MORTAGE<br><span>PROTECTION/<br>CANCELATION</span></p>
                         </article>
                     </a>
@@ -119,7 +116,7 @@
                 <div class="col-md-1 col-sm-4 col-6">
                     <a href="">
                         <article class="aba-cta">
-                            <img src="images/business.png"/>
+                            <img src="images/Business-Adv.png"/>
                             <p>BUSINESS ADVISORY</p>
                         </article>
                     </a>
@@ -127,7 +124,7 @@
                 <div class="col-md-1 col-sm-4 col-6">
                     <a href="">
                         <article class="aba-cta">
-                            <img src="images/funding.png"/>
+                            <img src="images/Funds.png"/>
                             <p>COLLEGE FUNDING</p>
                         </article>
                     </a>
@@ -135,7 +132,7 @@
                 <div class="col-md-1 col-sm-4 col-6">
                     <a href="">
                         <article class="aba-cta">
-                            <img src="images/expense.png"/>
+                            <img src="images/Final-Exp.png"/>
                             <p>FINAL EXPENSE</p>
                         </article>
                     </a>
@@ -143,7 +140,7 @@
                 <div class="col-md-1 col-sm-4 col-6">
                     <a href="">
                         <article class="aba-cta">
-                            <img src="images/insurance.png"/>
+                            <img src="images/Life-Ins.png"/>
                             <p>LIFE INSURANCE</p>
                         </article>
                     </a>
@@ -231,13 +228,9 @@
     <div id="aba-faqs" class="bg-white">
         <h2 class="heading">FAQS</h2>
         <div class="container">
-
             <div class="row">
-
                 <section class="col-md-5 offset-1">
                     <div id="accordion">
-
-
                         <div class="aba-faq" id="aba-faq-1">
                             <h5 class="mb-0">
                                 <a class="collapsed" role="button" data-toggle="collapse" href="#collapse-1"
@@ -342,14 +335,9 @@
     <!--video section-->
     <div id="aba-video-section" class="bg-grey">
         <h2 class="heading pt-4">Why Chosing Us?</h2>
-
-
         <div class="container">
-
             <div class="row">
-
                 <section class="col-md-12">
-
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
                                 allowfullscreen></iframe>
@@ -357,13 +345,10 @@
                 </section>
             </div>
         </div>
-
     </div>
     <!--video section-->
     <!--footer-->
     <div id="aba-footer-section" class="bg-white">
-
-        <!-- Footer -->
         <footer class="page-footer pt-4">
 
             <!-- Footer Elements -->
@@ -410,7 +395,6 @@
             <!-- Copyright -->
 
         </footer>
-        <!-- Footer -->
     </div>
     <!--footer-->
 </div>
